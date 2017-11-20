@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="音频压缩分析"
+        android:textColor="@color/color_f00"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Speex"
+            android:textColor="@color/color_333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/btn_speex_recorder_start"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="开始录制"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/btn_speex_recorder_end"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_bg_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="停止录制"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
